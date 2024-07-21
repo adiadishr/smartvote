@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 1rem;
+}
+
+#message-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 75;
+
+    h3 {
+        cursor: default;
+        display: flex;
+        align-items: center;
+
+        button {
+            margin-left: 1rem;
+        }
+    }
+
+    .error {
+        color: #870000;
+    }
+
+    .success {
+        color: #7ea919;
+    }
+}
