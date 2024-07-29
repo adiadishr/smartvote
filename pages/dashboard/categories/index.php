@@ -20,7 +20,6 @@ require getBasePath() . 'includes/header.php';
     <h3><?= $organization ?></h3>
     <a href="create.php?organization_id=<?= $organization_id ?>">Create a category</a><br />
     <table>
-
         <tbody>
             <?php
             if ($result->num_rows > 0) {

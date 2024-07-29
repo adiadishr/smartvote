@@ -12,4 +12,5 @@ if ($index == false) {
 <a href="<?= $backtick ?>organizations">Manage Organizations</a>
 <a href="<?= $backtick ?>categories">Manage Categories</a>
 <a href="<?= $backtick ?>polls">Manage Polls</a>
+<a href="<?= $backtick ?>votes">Manage Votes</a>
 <?= $index ? '<p>Welcome ' . $_SESSION['username'] . '</p>' : null ?>
